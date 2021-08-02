@@ -11,7 +11,7 @@ public class Menu extends World
 
     Selector selector = new Selector();
     private int opcion = 0;
-    GreenfootSound musica = new GreenfootSound("The Graveyard.mp3");
+    
     
     public Menu()
     {    
@@ -57,6 +57,5 @@ public class Menu extends World
             }
         }
         
-        musica.play();
     }
 }

@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class MyWorld extends World
 {
-
+    GreenfootSound musica = new GreenfootSound("The Graveyard.mp3");
     int contador = 0;
     int velocidadSpawn = 50;
     int spawnAleatorio;
@@ -30,6 +30,7 @@ public class MyWorld extends World
     {
         contador++;
         spawnZombnahorias();
+        musica.playLoop();
     }
     
     public void spawnZombnahorias()

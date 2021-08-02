@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Zombnahoria extends Actor
 {
     
-    int vida = 2;
+    int vida = 3;
     Ray jugador;
     Counter counter;
     public Zombnahoria(Ray mainRay, Counter counter)
